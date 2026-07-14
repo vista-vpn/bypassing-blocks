@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обход блокировок - Скачать</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        h2 img {
+            vertical-align: middle;
+            width: 24px;
+            height: 24px;
+        }
+
+        .tool {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            border-bottom: 1px solid #eee;
+            text-align: left;
+        }
+
+        .tool-name {
+            font-size: 16px;
+        }
+
+        .download-btn {
+            background-color: #4a90d9;
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .download-btn:hover {
+            background-color: #357abd;
+        }
+
+        .vpn-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 6px;
+            margin-top: 30px;
+            box-sizing: border-box;
+        }
+
+        .vpn-btn:hover {
+            background-color: #27ae60;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Обход блокировок</h1>
+
+    <h2>
+        <img src="https://raw.githubusercontent.com/vista-vpn/bypassing-blocks/refs/heads/main/Resourses/windows.png"
+            alt="Windows">
+        Windows
+    </h2>
+
+    <div class="tool">
+        <span class="tool-name">TGWS Proxy</span>
+        <a href="https://github.com/vista-vpn/bypassing-blocks/raw/refs/heads/main/Resourses/TgWsProxy_windows.exe" class="download-btn" onclick="download('TGWS Proxy Windows')">Скачать</a>
+    </div>
+
+    <div class="tool">
+        <span class="tool-name">Zapret (YouTube, Discord)</span>
+        <a href="https://github.com/vista-vpn/bypassing-blocks/raw/refs/heads/main/Resourses/ZAPRET%20YOUTUBE%20DISCORD.zip" class="download-btn" onclick="download('Zapret YouTube Discord')">Скачать</a>
+    </div>
+
+    <div class="tool">
+        <span class="tool-name">Bye Bye DPI</span>
+        <a href="#" class="download-btn" onclick="download('Bye Bye DPI Windows')">Скачать</a>
+    </div>
+
+    <h2>
+        <img src="https://raw.githubusercontent.com/vista-vpn/bypassing-blocks/refs/heads/main/Resourses/android.png"
+            alt="Android">
+        Android
+    </h2>
+
+    <div class="tool">
+        <span class="tool-name">Bye Bye DPI</span>
+        <a href="https://github.com/romanvht/ByeByeDPI/releases/download/v.1.7.6/ByeByeDPI-v1.7.6-universal-release.apk" class="download-btn" onclick="download('Bye Bye DPI Android')">Скачать</a>
+    </div>
+
+    <div class="tool">
+        <span class="tool-name">TGWS Proxy</span>
+        <a href="https://github.com/amurcanov/tg-ws-proxy-android/releases/download/v1.2.3/v1.2.3-release-universal.apk" class="download-btn" onclick="download('TGWS Proxy Android')">Скачать</a>
+    </div>
+
+    <a href="#" class="vpn-btn" onclick="download('VPN для всех устройств')">VPN для любых устройств</a>
+
+
+
+    <script>
+        function download(toolName) {
+            // Здесь нужно указать реальные ссылки на скачивание
+            alert('Скачивание: ' + toolName + '\n\nВставьте прямые ссылки на файлы в код.');
+        }
+    </script>
+
+</body>
+
+</html>
